@@ -7,8 +7,8 @@ PARENT_DIR=`readlink -f ${DIR}/..`;
 
 export PLATFORM_VERSION=11
 export ANDROID_MAJOR_VERSION=r
-export CROSS_COMPILE=aarch64-linux-androidkernel-
-export CLANG_TRIPLE=aarch64-linux-gnu-
+export CROSS_COMPILE=$PARENT_DIR/aarch64-linux-android-4.9/bin/aarch64-linux-android-
+export CLANG_TRIPLE=$PARENT_DIR/clang-r383902/bin/aarch64-linux-gnu-
 export ARCH=arm64
 export LINUX_GCC_CROSS_COMPILE_PREBUILTS_BIN=$PARENT_DIR/aarch64-linux-android-4.9/bin
 export CLANG_PREBUILT_BIN=$PARENT_DIR/clang-r383902/bin
